@@ -2,7 +2,7 @@ import platform,requests,os,socket
 from datetime import datetime;from requests import *
 
 
-serveur_hôte,serveur_port= "192.168.1.192",12345
+serveur_hôte,serveur_port= "host",12345
 
 def user_info():
     json = get('http://ipinfo.io/json').json()
